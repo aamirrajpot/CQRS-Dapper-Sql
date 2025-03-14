@@ -27,7 +27,7 @@ namespace CQRS_Dapper.Endpoints
 
             routes.MapGet("/products/{id}", async (IMediator mediator, int id) =>
             {
-                var query = new GetProductByIdQuery { ProductId = id }; 
+                var query = new GetProductByIdQuery { ProductId = id };
                 var product = await mediator.Send(new GetProductByIdQuery { ProductId = id });
                 if (product == null)
                 {
