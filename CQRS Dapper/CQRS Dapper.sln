@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS Dapper", "CQRS Dapper.csproj", "{DA76BFB0-EAD7-8129-1FBC-281B3842E266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA76BFB0-EAD7-8129-1FBC-281B3842E266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA76BFB0-EAD7-8129-1FBC-281B3842E266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA76BFB0-EAD7-8129-1FBC-281B3842E266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA76BFB0-EAD7-8129-1FBC-281B3842E266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92DD9A0E-964C-473F-977B-4802C1B93140}
+	EndGlobalSection
+EndGlobal

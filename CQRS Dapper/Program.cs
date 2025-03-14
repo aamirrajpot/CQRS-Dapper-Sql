@@ -1,5 +1,5 @@
 using CQRS_Dapper.Data;
-using CQRS_Dapper.EndPoints;
+using CQRS_Dapper.Endpoints;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
